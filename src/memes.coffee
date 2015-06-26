@@ -1,14 +1,19 @@
 # Description:
-# Meme generator
+#   Meme generator
 #
 # Dependencies:
-# None
+#   None
 #
 # Configuration:
-# None
+#   None
+#
+# Commands:
+#   hubot meme list - List of memes and their codes
+#   hubot meme me (meme) "top message" "bottom message"
 #
 # Author:
-# lilybethshields
+#   lilybethshields
+#   waynegraham
 
 Util = require 'util'
 
