@@ -1,6 +1,6 @@
 {
   "name": "hubot-memes",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Meme generator from memegen.link",
   "main": "index.coffee",
   "author": {
@@ -8,12 +8,15 @@
     "email": "",
     "url": "https://github.com/lilybethsheilds"
   },
+  "contributors": [{
+    "name": "Wayne Graham",
+    "email": "wayne.graham@gmail.com"
+  }],
   "keywords": [
     "hubot",
     "hubot-scripts",
-    "darts",
-    "foam",
-    "nerf"
+    "meme",
+    "generator"
   ],
   "license": "MIT",
   "scripts": {
