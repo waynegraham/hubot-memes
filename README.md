@@ -11,8 +11,8 @@ hubot meme me (meme) "top message" "bottom message"
 
 ### Sample Interaction:
 
-user1> hubot meme me afraid "hello" "world"
-hubot> http://memegen.link/afraid/hello/world.jpg
+  user1> hubot meme me afraid "hello" "world"
+  hubot> http://memegen.link/afraid/hello/world.jpg
 
 ## Installation
 
