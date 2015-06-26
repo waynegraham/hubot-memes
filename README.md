@@ -6,8 +6,8 @@ Meme generator for hubot.
 
 ## Usage:
 
-hubot meme list - List the available memes
-hubot meme me (meme) "top message" "bottom message"
+  hubot meme list - List the available memes
+  hubot meme me (meme) "top message" "bottom message"
 
 ### Sample Interaction:
 
