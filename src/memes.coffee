@@ -44,10 +44,8 @@ memes =
   "chosen": "You Were the Chosen One!",
   "10guy": "[10] Guy"
 
-getCode = (meme, meemes) ->
-  for code, meme of memes
-    return code if meme.toLowerCase() is meme.toLowerCase()
-
+checkCode = (meme, memes) ->
+  return meme of memes
 
 module.exports = (robot) ->
 
@@ -58,11 +56,11 @@ module.exports = (robot) ->
       msg.send "#{code} - #{meme}"
 
   robot.respond /meme me (\w+) (\"[^"]+\") (\"[^"]+\")/i, (msg) ->
-    meme = if msg.match[1] isnt undefined then getCode(msg.match[0], memes) else 'doge'
-    top = msg.match[2].replace(/"/g, '').replace(/\s+/g, '-').toLowerCase()
-    bottom = msg.match[3].replace(/"/g, '').replace(/\s+/g, '-').toLowerCase()
+
+    meme   = if msg.match[1] isnt undefined && checkCode(msg.match[1], memes) else 'doge'
+    top    = msg.match[2].replace(/"/g, '').trim().replace(/\s+/g, '-')
+    bottom = msg.match[3].replace(/"/g, '').trim().replace(/\s+/g, '-')
 
     msg.send "http://memegen.link/#{meme}/#{top}/#{bottom}.jpg"
-    #meme = if msg.match[0] isnt undefined then getCode(msg.match[0], memes) else 'doge'
-    #top = "\"#{msg.match[1]?.trim()}\""
-    #bottom = "\"#{msg.match[2]?.trim()}\""
+
+
