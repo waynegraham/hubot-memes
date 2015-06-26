@@ -1,0 +1,40 @@
+{
+  "name": "hubot-memes",
+  "version": "0.0.1",
+  "description": "Meme generator from memegen.link",
+  "main": "index.coffee",
+  "author": {
+    "name": "Lilybeth Shields",
+    "email": "",
+    "url": "https://github.com/lilybethsheilds"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "darts",
+    "foam",
+    "nerf"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "script/test"
+  },
+  "homepage": "https://github.com/waynegraham/hubot-memes/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waynegraham/hubot-memes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/waynegraham/hubot-memes/issues"
+  },
+  "dependencies": {
+    "hubot": ">= 2.4.0",
+    "coffee-script": "~1.6"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  }
+}
