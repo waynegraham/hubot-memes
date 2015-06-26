@@ -20,6 +20,7 @@ Util = require 'util'
 memes =
   "afraid": "'Afraid to Ask'",
   "blb": "Bad Luck Brian",
+  "buzz": "X, X Everywhere",
   "wonka": "Condescending Wonka",
   "keanu": "Conspriracy Keanu",
   "live": "Do It Live!",
