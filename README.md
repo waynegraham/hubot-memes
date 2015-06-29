@@ -34,4 +34,6 @@ Run the following command to ensure the module is installed.
 Ensure `hubot-memes` is listed in the dependencies in your
 `package.json` file.
 
-   ["hubot-memes"]
+```
+["hubot-memes"]
+```
