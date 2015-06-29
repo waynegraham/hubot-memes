@@ -5,14 +5,16 @@ Meme generator for hubot.
 [![Build Status](https://travis-ci.org/waynegraham/hubot-memes.png)](https://travis-ci.org/waynegraham/hubot-memes) [![npm version](https://badge.fury.io/js/hubot-memes.png)](http://badge.fury.io/js/hubot-memes)
 
 ## Usage:
-
-  hubot meme list - List the available memes
-  hubot meme me (meme) "top message" "bottom message"
+```
+hubot meme list - List the available memes
+hubot meme me (meme) "top message" "bottom message"
+```
 
 ### Sample Interaction:
-
-  user1> hubot meme me afraid "hello" "world"
-  hubot> http://memegen.link/afraid/hello/world.jpg
+```
+user1> hubot meme me afraid "hello" "world"
+hubot> http://memegen.link/afraid/hello/world.jpg
+```
 
 ## Installation
 
