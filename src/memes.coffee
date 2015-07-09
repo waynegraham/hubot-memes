@@ -63,9 +63,9 @@ module.exports = (robot) ->
 
   robot.respond /meme me (\w+) (\"[^"]+\") (\"[^"]+\")/i, (msg) ->
 
-    meme = if checkCode(msg.match[1], memes) then msg.match[1] else 'doge'
+    meme = if checkCode(msg.match[1].toLowerCase(), memes) then msg.match[1].toLowerCase() else 'doge'
     top    = msg.match[2].replace(/"/g, '').trim().replace(/\s+/g, '-')
     bottom = msg.match[3].replace(/"/g, '').trim().replace(/\s+/g, '-')
 
-    msg.send "http://memegen.link/#{meme}/#{top}/#{bottom}.jpg"
+    msg.send "http://memegen.link/#{meme}/#{escape(top)}/#{escape(bottom)}.jpg"
 
