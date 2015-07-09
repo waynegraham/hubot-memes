@@ -1,16 +1,20 @@
 {
   "name": "hubot-memes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Meme generator from memegen.link",
   "main": "index.coffee",
   "author": {
     "name": "Lilybeth Shields",
-    "email": "",
+    "email": "lilyonalillypad@gmail.com",
     "url": "https://github.com/lilybethsheilds"
   },
   "contributors": [{
     "name": "Wayne Graham",
-    "email": "wayne.graham@gmail.com"
+    "email": "wayne.graham@gmail.com",
+    "url": "https://github.com/waynegraham"
+  },{
+    "name": "Seth Aten",
+    "url": "https://github.com/SethAten"
   }],
   "keywords": [
     "hubot",
