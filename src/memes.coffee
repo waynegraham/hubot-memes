@@ -58,8 +58,9 @@ module.exports = (robot) ->
   meme_choices = (meme for _, meme of memes).sort().join('|')
 
   robot.respond /meme list/i, (msg) ->
-    for code, meme of memes
-      msg.send "#{code} - #{meme}"
+    memelist = ''
+    memelist += "#{code} - #{meme}\n" for code, meme of memes
+    msg.send memelist
 
   robot.respond /meme me (\w+) (\"[^"]+\") (\"[^"]+\")/i, (msg) ->
 
