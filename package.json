@@ -15,7 +15,11 @@
   },{
     "name": "Seth Aten",
     "url": "https://github.com/SethAten"
-  }],
+  },{
+    "name": "Michael Reeves",
+    "url": "https://github.com/mreeves1"
+  }
+  ],
   "keywords": [
     "hubot",
     "hubot-scripts",
