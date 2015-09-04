@@ -9,6 +9,7 @@
 #
 # Commands:
 #   hubot meme list - List of memes and their codes
+#   hubot meme show - Show all memes and their codes
 #   hubot meme me (meme) "top message" "bottom message"
 #
 # Author:
@@ -61,6 +62,10 @@ module.exports = (robot) ->
     memelist = ''
     memelist += "#{code} - #{meme}\n" for code, meme of memes
     msg.send memelist
+
+  robot.respond /meme show/i, (msg) ->
+    for code, meme of memes
+      msg.send "http://memegen.link/#{code}/#{escape(code)}/#{escape(meme)}.jpg"
 
   robot.respond /meme me (\w+) (\"[^"]+\") (\"[^"]+\")/i, (msg) ->
 
