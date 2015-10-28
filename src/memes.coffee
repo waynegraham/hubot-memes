@@ -21,6 +21,7 @@ Util = require 'util'
 memes =
   "aag": "Ancient Aliens Guy",
   "afraid": "'Afraid to Ask'",
+  "alwaysonbeat": "Always On Beat",
   "ants": "Do You Want Ants? (archer)",
   "awesome": "Socially Awesome Penguin",
   "awkward": "Socially Awkward Penguin",
