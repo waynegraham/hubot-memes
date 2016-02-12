@@ -13,7 +13,7 @@ describe 'memes', ->
     require('../src/memes')(@robot)
 
   it 'registers a respond listener', ->
-    expect(@robot.respond).to.have.been.calledWith(/meme me (\w+) (\"[^"]+\") (\"[^"]+\")/i)
+    expect(@robot.respond).to.have.been.calledWith(/meme me (\w+) ([\"\“\”][^\"\“\”]+[\"\“\”]) ([\"\“\”][^\"\“\”]+[\"\“\”])/i)
 
   it 'registers a hear listener to the list command', ->
     expect(@robot.respond).to.have.been.calledWith(/meme list/i)
