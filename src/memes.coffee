@@ -58,6 +58,7 @@ memes =
   "philosoraptor": "Philosoraptor",
   "regret": "I Immediately Regret This Decision (anchorman)",
   "remembers": "Pepperidge Farm Remembers",
+  "sadfrog": "Sad Frog / Feels Bad Man",
   "sarcasticbear": "Sarcastic Bear",
   "sb": "Scumbag Brian",
   "sf": "Sealed Fate",
