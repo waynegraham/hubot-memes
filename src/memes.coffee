@@ -82,6 +82,7 @@ memes =
   "success": "Success Kid",
   "tenguy": "[10] Guy",
   "toohigh": "The Rent is Too Damn High",
+  "winter": "Prepare yourselves, winter is coming",
   "wonka": "Condescending Wonka",
   "xy": "X all the Y",
   "yallgot": "Y'All Got Anymore of",
