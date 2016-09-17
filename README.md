@@ -19,7 +19,7 @@ hubot> http://memegen.link/afraid/hello/world.jpg
 ## Installation
 
 Add the package `hubot-memes` entry to the `external-scripts.json` file.
-(you may need to creat this file).
+(you may need to create this file).
 
 ```
 "dependencies": {
