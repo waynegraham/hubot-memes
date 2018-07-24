@@ -8,23 +8,28 @@
     "email": "lilyonalillypad@gmail.com",
     "url": "https://github.com/lilybethsheilds"
   },
-  "contributors": [{
-    "name": "Wayne Graham",
-    "email": "wayne.graham@gmail.com",
-    "url": "https://github.com/waynegraham"
-  },{
-    "name": "Seth Aten",
-    "url": "https://github.com/SethAten"
-  },{
-    "name": "Michael Reeves",
-    "url": "https://github.com/mreeves1"
-  },{
-    "name": "James Ascher",
-    "url": "https://github.com/cacology"
-  },{
-    "name": "Jordan Neufeld",
-    "url": "http://www.neufeldtech.com/"
-  }
+  "contributors": [
+    {
+      "name": "Wayne Graham",
+      "email": "wayne.graham@gmail.com",
+      "url": "https://github.com/waynegraham"
+    },
+    {
+      "name": "Seth Aten",
+      "url": "https://github.com/SethAten"
+    },
+    {
+      "name": "Michael Reeves",
+      "url": "https://github.com/mreeves1"
+    },
+    {
+      "name": "James Ascher",
+      "url": "https://github.com/cacology"
+    },
+    {
+      "name": "Jordan Neufeld",
+      "url": "http://www.neufeldtech.com/"
+    }
   ],
   "keywords": [
     "hubot",
@@ -49,9 +54,9 @@
     "coffee-script": "~1.6"
   },
   "devDependencies": {
-    "mocha": "*",
-    "chai": "*",
-    "sinon-chai": "*",
-    "sinon": "*"
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "sinon": "^5.1.1",
+    "sinon-chai": "^3.2.0"
   }
 }
